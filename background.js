@@ -10,3 +10,5 @@ chrome.runtime.onMessage.addListener((request, sender) => {
       chrome.tabs.sendMessage(tabs[0].id, { type: 'drawImage', payload })
     })
   }
+
+
