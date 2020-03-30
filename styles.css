@@ -1,0 +1,19 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+
+#take-screenshot-button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+

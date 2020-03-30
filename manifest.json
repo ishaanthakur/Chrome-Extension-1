@@ -1,0 +1,35 @@
+{
+    "name": "DesignReview",
+    "version": "0.0.1",
+    "description" : "A tool for visually altering a webpage and generate screenshot", 
+    "manifest_version" : 2,
+    "permissions":[
+        "activeTab"
+    ],
+    "background":{
+        "persistent": false,
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action" : {
+        "default_title": "DesignReview",
+        "default_icon": "preview.png",
+        "default_popup": "popup.html"
+
+    },
+    "content_scripts":[
+        {
+            "matches" :[
+                "https://*/*"
+            ],
+            "css":[
+                "styles.css"
+            ],
+            "js":[
+                "contentScript.js"
+            ],
+            "run_at":"document_idle" 
+        }
+    ]   
+}
