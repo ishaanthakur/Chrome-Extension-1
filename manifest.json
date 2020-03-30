@@ -1,5 +1,5 @@
 {
-    "name": "DesignReview",
+    "name": "Webpage Altering Ext",
     "version": "0.0.1",
     "description" : "A tool for visually altering a webpage and generate screenshot", 
     "manifest_version" : 2,
@@ -13,7 +13,7 @@
         ]
     },
     "browser_action" : {
-        "default_title": "DesignReview",
+        "default_title": "Ishaan's Chrome Extension",
         "default_icon": "preview.png",
         "default_popup": "popup.html"
 
